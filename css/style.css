@@ -4,20 +4,54 @@
 }
 
 .logo {
-    width: 23;
+    width: 10%;
     padding: 1%;
     text-align: center;
-    justify-content: flex-start;
+    float: left;
 }
 
-nav.inline-block {
-    width: 73%;
+nav {
+    width: 100%;
     padding: 1%;
+    vertical-align: middle;
 }
 
-#ul {
+ul {
     width: 50%;
     margin-left: auto;
 }
 
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
 
+.content {
+    width: 500px;
+    margin: 0%;
+}
+
+
+footer {
+    background-color: #F8B133;
+    display: inline-block;
+}
+
+section {
+    background-color:#F8B133;
+}
+
+.portrait {
+    width: 50%;
+    float: left;
+}
+
+.portrait-text {
+    width: 50%;
+    float: right;
+}
+
+.nav-menu {
+    float: right;
+    width: 75%;
+}
